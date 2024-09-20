@@ -1,8 +1,6 @@
 package concepts.multithreading;
 
-import java.awt.*;
-
-public class MemoryModel {
+public class _4_MemoryModel {
     // we will go over how the memory is organized and accessed in
     // the context of multithreading in java
 

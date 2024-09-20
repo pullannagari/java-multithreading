@@ -1,6 +1,6 @@
 package concepts.multithreading;
 
-public class StoppableRunnable implements Runnable {
+public class _2_StoppableRunnable implements Runnable {
     // java has Thread.stop() method to stop a thread,
     // but it is deprecated because it is inherently unsafe
     // because it can cause the object to be left in an inconsistent state
@@ -34,7 +34,7 @@ public class StoppableRunnable implements Runnable {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        StoppableRunnable stoppableRunnable = new StoppableRunnable();
+        _2_StoppableRunnable stoppableRunnable = new _2_StoppableRunnable();
         Thread thread = new Thread(stoppableRunnable);
         thread.start();
         Thread.sleep(5000);

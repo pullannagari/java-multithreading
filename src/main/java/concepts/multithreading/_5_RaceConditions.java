@@ -1,6 +1,6 @@
 package concepts.multithreading;
 
-public class RaceConditions implements Runnable{
+public class _5_RaceConditions implements Runnable{
     private int count = 0;
 
     @Override
@@ -19,7 +19,7 @@ public class RaceConditions implements Runnable{
     }
 
     public static void main(String[] args) throws InterruptedException {
-        Runnable r = new RaceConditions();
+        Runnable r = new _5_RaceConditions();
         // first thread should count to 1 million
         Thread thread1 = new Thread(r);
         // second thread should also count to 1 million

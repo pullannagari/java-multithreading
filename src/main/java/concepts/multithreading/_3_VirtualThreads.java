@@ -3,7 +3,7 @@ package concepts.multithreading;
 import java.util.ArrayList;
 import java.util.List;
 
-public class VirtualThreads {
+public class _3_VirtualThreads {
     /*
     The existing threads in java are called platform threads.
     A platform thread is executed by os thread

@@ -2,7 +2,7 @@ package concepts.multithreading;
 
 import java.util.concurrent.*;
 
-public class ThreadCreationExample {
+public class _1_ThreadCreationExample {
     public static void main(String[] args) {
         // four different ways to create a thread
         // 1. By extending Thread class
