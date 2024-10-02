@@ -138,8 +138,7 @@ public class _6_HappensBefore {
 
         // overall happens-before guarantee:
         // A set of restrictions on "instruction reordering" to avoid "instruction reordering" breaking java visibility
+
     }
-
-
 
 }

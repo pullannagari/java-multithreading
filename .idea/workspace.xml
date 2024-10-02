@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e8b589a-7695-4d7e-af07-04084ee1fa19" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concepts/multithreading/MemoryModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concepts/multithreading/RaceConditions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concepts/multithreading/StoppableRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concepts/multithreading/ThreadCreationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/concepts/multithreading/VirtualThreads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/concepts/multithreading/_7_Synchronized_Blocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/concepts/multithreading/_6_HappensBefore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/concepts/multithreading/_6_HappensBefore.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +41,7 @@
     "Application.StoppableRunnable.executor": "Run",
     "Application.ThreadCreationExample.executor": "Run",
     "Application.VirtualThreads.executor": "Run",
+    "Application._7_Synchronized_Blocks.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -59,13 +51,13 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RaceConditions">
-    <configuration name="MemoryModel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concepts.multithreading.MemoryModel" />
+  <component name="RunManager" selected="Application._7_Synchronized_Blocks">
+    <configuration name="_2_StoppableRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concepts.multithreading._2_StoppableRunnable" />
       <module name="java-multithreading" />
       <extension name="coverage">
         <pattern>
@@ -77,8 +69,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RaceConditions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concepts.multithreading.RaceConditions" />
+    <configuration name="_3_VirtualThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concepts.multithreading._3_VirtualThreads" />
       <module name="java-multithreading" />
       <extension name="coverage">
         <pattern>
@@ -90,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StoppableRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concepts.multithreading.StoppableRunnable" />
+    <configuration name="_4_MemoryModel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concepts.multithreading._4_MemoryModel" />
       <module name="java-multithreading" />
       <extension name="coverage">
         <pattern>
@@ -103,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadCreationExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concepts.multithreading.ThreadCreationExample" />
+    <configuration name="_5_RaceConditions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concepts.multithreading._5_RaceConditions" />
       <module name="java-multithreading" />
       <extension name="coverage">
         <pattern>
@@ -116,8 +108,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VirtualThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concepts.multithreading.VirtualThreads" />
+    <configuration name="_7_Synchronized_Blocks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="concepts.multithreading._7_Synchronized_Blocks" />
       <module name="java-multithreading" />
       <extension name="coverage">
         <pattern>
@@ -131,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RaceConditions" />
-        <item itemvalue="Application.MemoryModel" />
-        <item itemvalue="Application.VirtualThreads" />
-        <item itemvalue="Application.StoppableRunnable" />
-        <item itemvalue="Application.ThreadCreationExample" />
+        <item itemvalue="Application._7_Synchronized_Blocks" />
+        <item itemvalue="Application._5_RaceConditions" />
+        <item itemvalue="Application._4_MemoryModel" />
+        <item itemvalue="Application._3_VirtualThreads" />
+        <item itemvalue="Application._2_StoppableRunnable" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +147,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726341703593</updated>
-      <workItem from="1726341704630" duration="17739000" />
+      <workItem from="1726341704630" duration="43051000" />
     </task>
     <servers />
   </component>
